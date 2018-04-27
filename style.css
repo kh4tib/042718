@@ -19,8 +19,44 @@ html {
     width: 2rem;
     height: 2rem; }
 
-#two,
+#one {
+  fill: #fff;
+  animation: animationOne 6s ease-in-out forwards infinite;
+  opacity: 0; }
+@keyframes animationOne {
+  0% {
+    opacity: 0; }
+  33% {
+    opacity: 1; }
+  66% {
+    opacity: 0; }
+  100% {
+    opacity: 0; } }
+#two {
+  animation: animationTwo 6s ease-in-out forwards infinite;
+  opacity: 0; }
+@keyframes animationTwo {
+  0% {
+    opacity: 0; }
+  33% {
+    opacity: 0; }
+  66% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
 #three {
-  visibility: hidden; }
+  animation: animationThree 6s ease-in-out forwards infinite;
+  opacity: 0; }
+@keyframes animationThree {
+  0% {
+    opacity: 0; }
+  33% {
+    opacity: 0; }
+  66% {
+    opacity: 0; }
+  96% {
+    opacity: 1; }
+  100% {
+    opacity: 0; } }
 
 /*# sourceMappingURL=style.css.map */

@@ -28,7 +28,82 @@ html {
     }
 }
 
-#two,
-#three, {
-    visibility: hidden;
+// unComment the code below for the morphSVT to work
+
+// #two,
+// #three, {
+//     visibility: hidden;
+// }
+
+// Comment the code below for the morphSVT to work
+
+#one {
+    fill: #fff;
+    animation: animationOne 6s ease-in-out forwards infinite;
+    opacity: 0;
+    
+    @keyframes animationOne {
+        0% {
+            opacity: 0;
+        }
+        33% {
+            opacity: 1;
+        }
+
+        66% {
+            opacity: 0;
+        }
+
+        100% {
+        opacity: 0;
+        }
+    }
+}
+
+#two {
+    animation: animationTwo 6s ease-in-out forwards infinite;
+    opacity: 0;
+    
+    @keyframes animationTwo {
+        0% {
+            opacity: 0;
+        }
+        33% {
+            opacity: 0;
+        }
+
+        66% {
+            opacity: 1;
+        }
+
+        100% {
+        opacity: 0;
+        }
+    }
+}
+
+#three {
+    animation: animationThree 6s ease-in-out forwards infinite;
+    opacity: 0;
+    
+    @keyframes animationThree {
+        0% {
+            opacity: 0;
+        }
+        33% {
+            opacity: 0;
+        }
+
+        66% {
+            opacity: 0;
+        }
+
+        96% {
+        opacity: 1;
+        }
+
+        100% {
+            opacity: 0;
+        }
+    }
 }
